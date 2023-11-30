@@ -1,4 +1,3 @@
-
 let card = document.querySelector(".trend");
 let card2 = document.getElementById("trendSec");
 let about = document.querySelector(".about");
@@ -26,6 +25,12 @@ document.getElementById("about").style.color="black"
 
 
 }
+const sun = document.getElementById("bt")
+sun.addEventListener('click',()=>{
+    console.log("click button")
+})
+ 
+
 function shops(){
 mainPage.style.display="none";
 blog.style.display="none";
